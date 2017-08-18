@@ -297,7 +297,7 @@ public class AuthorizationServerTest {
 
         // THEN
         verify(authServer).generateCode();
-        assertTrue(response.contains("&state="+state));
+        assertTrue(response.contains("&state=" + state));
     }
 
 
